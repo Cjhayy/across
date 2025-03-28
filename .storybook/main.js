@@ -1,5 +1,5 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
-const config = {
+let config = {
   stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
   staticDirs: ["../public"],
   addons: [
